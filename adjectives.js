@@ -1,3 +1,4 @@
+var adjectives = `
 abandoned
 abdominal
 abhorrent
@@ -4835,3 +4836,4 @@ zesty
 zippy
 zonked
 zoological
+`;
