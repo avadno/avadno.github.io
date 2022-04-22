@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Trebuchet;
+  src: url("trebuchet.otf");
+}
+
+@font-face {
+  font-family: WinTrebuchet;
+  src: url("trebuchet.ttf");
+}
+
+html {
+  background: black;
+  text-align: center;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+h1, button {
+  color: white;
+  font-family: Trebuchet MS, Trebuchet, WinTrebuchet;
+}
+
+footer {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  bottom: 0;
+  color: #222222;
+}
+
+button {
+  background-color: #5555ee;
+  border: none;
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50px;
+}
+
+button:hover {
+  background-color: #3333cc;
+}
