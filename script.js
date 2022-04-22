@@ -16,11 +16,15 @@ function arrChoice(arr) {
   return arr[i];
 }
 
-function generate() {
+function thing() {
   var adv = arrChoice(str2arr(adverbs));
   var adj = arrChoice(str2arr(adjectives));
   var nou = arrChoice (str2arr(nouns));
-  document.getElementById("output").innerHTML = adv + " " + adj + " " + nou;
+  return adv + " " + adj + " " + nou;
+}
+
+function generate() {
+  document.getElementById("output").innerHTML = thing();
 }
 
 generate();
