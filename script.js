@@ -26,7 +26,7 @@ function thing() {
 function debug_screenSize() {
   var debug = document.getElementById("debug");
   debug.style.display = "block";
-  debug.innerHTML = screen.width;
+  debug.innerHTML = window.innerWidth;
 }
 
 function generate() {
