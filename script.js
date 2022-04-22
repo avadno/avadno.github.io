@@ -45,6 +45,6 @@ window.mobileCheck = function() {
 generate();
 
 if(window.mobileCheck()) {
-  document.getElementById("output").style.fontSize = "3em";
-  document.getElementsByTagName("button")[0].style.fontSize = "3em";
+  document.getElementById("output").style.fontSize = "3.5em";
+  document.getElementsByTagName("button")[0].style.fontSize = "1.5em";
 }
