@@ -53,3 +53,8 @@ button {
 button:hover {
   background-color: #3333cc;
 }
+
+@media screen and (max-width: 770px) {
+  h1 { font-size: 2em; }
+  button { font-size: 2em; }
+}
