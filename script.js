@@ -23,10 +23,17 @@ function thing() {
   return adv + " " + adj + " " + nou;
 }
 
+function debug_screenSize() {
+  var debug = document.getElementById("debug");
+  debug.style.display = "block";
+  debug.innerHTML = screen.width;
+}
+
 function generate() {
   var r = thing();
   document.getElementById("output").innerHTML = r;
   document.title = r;
+  debug_screenSize();
 }
 
 generate();
