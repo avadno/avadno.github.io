@@ -33,7 +33,7 @@ function generate() {
   var r = thing();
   document.getElementById("output").innerHTML = r;
   document.title = r;
-  debug_screenSize();
+  //debug_screenSize();
 }
 
 generate();
