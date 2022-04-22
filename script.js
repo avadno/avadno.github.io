@@ -24,7 +24,9 @@ function thing() {
 }
 
 function generate() {
-  document.getElementById("output").innerHTML = thing();
+  var r = thing();
+  document.getElementById("output").innerHTML = r;
+  document.title = r;
 }
 
 generate();
